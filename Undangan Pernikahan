@@ -1,0 +1,89 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan Hady & Rahma</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            color: #5a2a2a;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            padding: 20px;
+        }
+        h1 {
+            color: #b3003b;
+            font-size: 36px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+            margin-top: 20px;
+            width: 80%;
+        }
+        .details {
+            font-size: 20px;
+            line-height: 1.6;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 16px;
+            color: #7a3b3b;
+        }
+        .heart {
+            color: red;
+            font-size: 24px;
+        }
+        .romantic-card {
+            background: url('https://example.com/romantic-invitation.jpg') no-repeat center center;
+            background-size: cover;
+            padding: 50px;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .map {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="romantic-card">
+            "Dengan penuh cinta dan kebahagiaan, kami mengundang Anda untuk hadir dalam hari istimewa kami."
+        </div>
+        <h1>💖 Undangan Pernikahan 💖</h1>
+        <div class="card">
+            <h2>Hady <span class="heart">❤</span> Rahma</h2>
+            <p class="details">
+                Dengan penuh rasa syukur, kami mengundang Anda untuk menghadiri pernikahan kami.
+            </p>
+            <p class="details">
+                <strong>💍 Hari/Tanggal Akad:</strong> Rabu, 14 Mei 2025<br>
+                <strong>⏰ Waktu:</strong> 07.00 - Selesai<br>
+                <strong>📍 Tempat:</strong> Depok City
+            </p>
+        </div>
+        <div class="map">
+            <h2>Lokasi Acara</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7936.917504965244!2d106.81159330000002!3d-6.4024848!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69eb27a4f1f947%3A0xe7e6c9ad60595e89!2sDepok%20City!5e0!3m2!1sid!2sid!4v1711810234" 
+                width="80%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="footer">
+            <p>💕 Atas kehadiran dan doa restunya, kami mengucapkan terima kasih. 💕</p>
+            <p>"Semoga kebahagiaan ini menjadi awal dari perjalanan panjang penuh cinta dan kebersamaan. Sampai jumpa di hari bahagia kami!"</p>
+        </div>
+    </div>
+</body>
+</html>
